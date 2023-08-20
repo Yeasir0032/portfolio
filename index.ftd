@@ -19,17 +19,17 @@
 
 -- navbar.header:
 logo: $assets.files.images.logo.svg
-logoURL: /YOUR_REPOSITORY_NAME
+logoURL: /Yeasir_Portfolio
 header-item1: Home
 header-item2: About
 header-item3: Blogs
 header-item4: Projects
-header-item1-link: /YOUR_REPOSITORY_NAME
-header-item2-link: /YOUR_REPOSITORY_NAME/about
-header-item3-link: /YOUR_REPOSITORY_NAME/blogs
-header-item4-link: /YOUR_REPOSITORY_NAME/projects
+header-item1-link: /Yeasir_Portfolio
+header-item2-link: /Yeasir_Portfolio/about
+header-item3-link: /Yeasir_Portfolio/blogs
+header-item4-link: /Yeasir_Portfolio/projects
 cta-item2: Resume
-cta-item2-link: /YOUR_REPOSITORY_NAME/resume
+cta-item2-link: /Yeasir_Portfolio/resume
 
 ;; ----------------------------------------------------------------
 ;; ***** PORTFOLIO Header ends *****
@@ -42,7 +42,7 @@ cta-item2-link: /YOUR_REPOSITORY_NAME/resume
 
 -- toast.stack:
 title: Hello, I'm aspiring fastn developer based in India
-link: https://github.com/YOUR_GITHUB_USERNAME
+link: https://github.com/yeasir0032
 
 ;; -----------------------------------------------------
 ;; ***** PORTFOLIO Toast ends *****
@@ -69,111 +69,10 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: YOUR_NAME,
+secondTitle: Syed Yeasir Rahaman,
 
 -- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
-secondTitle: developer
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: and
-secondTitle: explorer.
-
--- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
-role: $lib.home-description-responsive-typography
-margin-top.px: 10
-max-width.fixed.px: 700
-min-width.fixed.px: 450
-white-space: normal
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- button.secondary:
-title: Hire me
-link: mailto:YOUR_EMAIL_ADDRESS
-
--- button.primary:
-title: Schedule a Meeting
-link: YOUR_MEETING_HANLDE
-isNewTab: true
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
-;; --------------------------------
-
--- ftd.row:
-spacing.fixed.px: 10
-
--- social.social-button-wrapper:
-link: https://linkedin.com/in/yeasir0032
-image: $assets.files.images.linkedin.png
-
--- social.social-button-wrapper:
-link: https://twitter.com/YOUR_TWITTER_USERNAME
-image: $assets.files.images.twitter.png
-
--- social.social-button-wrapper:
-link: https://github.com/yeasir0032
-image: $assets.files.images.github.png
-
--- social.social-button-wrapper:
-link: https://instagram.com/YOUR_INSTAGRAM_USERNAME
-image: $assets.files.images.instagram.png
-
--- social.social-button-wrapper:
-link: mailto:YOUR_EMAIL_ADDRESS
-image: $assets.files.images.mail.png
-
--- end: ftd.row
-
-;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
-;; --------------------------------
-
--- end: ftd.column
-
--- ftd.image:
-src: $assets.files.images.developer.png
-width.fixed.px: 400
-
--- end: ftd.row
-
--- end: ftd.desktop
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view ends *****
-;; ------------------------------------------
-
-;; -----------------------------------------------------
-;; -----------------------------------------------------
-
-;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view starts *****
-;; ------------------------------------------
-
--- ftd.mobile:
--- ftd.column:
-margin-top.px: 30
-spacing.fixed.px: 20
-
-
--- ftd.image:
-src: $assets.files.images.developer.png
-width.fixed.px: 250
-align-self: center
-
--- ftd.column:
-spacing.fixed.px: 20
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: I'm
-secondTitle: YOUR_NAME,
-
--- lib.hero-ui-base-text-wrapper:
-firstTitle: frontend
+firstTitle: Full Stack
 secondTitle: developer
 
 -- lib.hero-ui-base-text-wrapper:
@@ -201,6 +100,103 @@ isNewTab: true
 
 -- end: ftd.row
 
+;; --------------------------------
+;; ***** PORTFOLIO Socials starts *****
+;; --------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://linkedin.com/in/yeasir-rahaman-33b1bb257
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/RahamanYeasir
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/yeasir0032
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: mailto:sdyeasirrahaman@gmail.com
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+;; --------------------------------
+;; ***** PORTFOLIO Socials ends *****
+;; --------------------------------
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 500
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; ------------------------------------------
+
+;; -----------------------------------------------------
+;; -----------------------------------------------------
+
+;; ------------------------------------------
+;; ***** PORTFOLIO Hero UI Mobile view starts *****
+;; ------------------------------------------
+
+-- ftd.mobile:
+-- ftd.column:
+margin-top.px: 30
+spacing.fixed.px: 20
+
+
+-- ftd.image:
+src: $assets.files.images.developer.png
+width.fixed.px: 300
+align-self: center
+
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: Syed Yeasir Rahaman,
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: Full Stack
+secondTitle: developer
+
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and
+secondTitle: explorer.
+
+-- ftd.text: I love to create apps. I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+max-width.fixed.px: 700
+min-width.fixed.px: 450
+white-space: normal
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary:
+title: Hire me
+link: mailto:sdyeasirrahaman@gmail.com
+
+-- button.primary:
+title: Schedule a Meeting
+link: https://twitter.com/RahamanYeasir
+isNewTab: true
+
+-- end: ftd.row
+
 
 ;; --------------------------------
 ;; ***** PORTFOLIO Socials starts *****
@@ -210,23 +206,19 @@ isNewTab: true
 spacing.fixed.px: 10
 
 -- social.social-button-wrapper:
-link: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
+link: https://linkedin.com/in/yeasir-rahaman-33b1bb257
 image: $assets.files.images.linkedin.png
 
 -- social.social-button-wrapper:
-link: https://twitter.com/yeasir0032
+link: https://twitter.com/RahamanYeasir
 image: $assets.files.images.twitter.png
 
 -- social.social-button-wrapper:
-link: https://github.com/YOUR_GITHUB_USERNAME
+link: https://github.com/yeasir0032
 image: $assets.files.images.github.png
 
 -- social.social-button-wrapper:
-link: https://instagram.com/YOUR_INSTAGRAM_USERNAME
-image: $assets.files.images.instagram.png
-
--- social.social-button-wrapper:
-link: mailto:YOUR_EMAIL_ADDRESS
+link: mailto:sdyeasirrahaman@gmail.com
 image: $assets.files.images.mail.png
 
 -- end: ftd.row
